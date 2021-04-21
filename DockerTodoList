@@ -1,0 +1,14 @@
+Api :
+    - Install InfluxDb
+    - Install Nodejs/Modules
+
+
+DataCollector :
+    - Install Python3
+    - Install Requirements
+    - Install Modules
+
+sudo apt install openjdk-11-jdk
+sudo apt install bluez bluez-hcidump
+sudo setcap 'cap_net_raw,cap_net_admin+eip' `which hcitool`
+sudo setcap 'cap_net_raw,cap_net_admin+eip' `which hcidump`
