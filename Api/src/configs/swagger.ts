@@ -14,14 +14,14 @@ let options = {
           "application/xml"
       ],
       schemes: ['http', 'https'],
-      securityDefinitions: {
-          JWT: {
-              type: 'apiKey',
-              in: 'header',
-              name: 'Authorization',
-              description: "",
-          }
-      }
+      // securityDefinitions: {
+      //     JWT: {
+      //         type: 'apiKey',
+      //         in: 'header',
+      //         name: 'Authorization',
+      //         description: "",
+      //     }
+      // }
   },
   basedir: path.resolve(__dirname, '..'), //app absolute path
   files: ['./routes/**/*.ts', './routes/**/*.js'] //Path to the API handle folder

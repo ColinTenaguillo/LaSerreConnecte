@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.ts",
-    "start:prod": "node ./dist/index.js",
+    "start": "NODE_ENV=development nodemon src/index.ts",
+    "start:prod": "NODE_ENV=production node ./dist/index.js",
     "build": " tsc",
     "test": "jest"
   },
@@ -26,8 +26,10 @@
     "@sentry/tracing": "^6.0.4",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-swagger-generator": "^1.1.17",
+    "influx": "^5.7.0",
     "nodemon": "^2.0.7",
     "tslib": "^2.1.0"
   }
