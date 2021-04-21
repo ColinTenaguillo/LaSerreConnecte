@@ -19,11 +19,11 @@
     "ts-node": "^9.1.1",
     "tsc": "^1.20150623.0",
     "tslint": "^6.1.3",
-    "typescript": "^4.1.3"
+    "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@sentry/node": "^6.0.4",
-    "@sentry/tracing": "^6.0.4",
+    "@sentry/node": "^6.3.0",
+    "@sentry/tracing": "^6.3.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
@@ -31,6 +31,6 @@
     "express-swagger-generator": "^1.1.17",
     "influx": "^5.7.0",
     "nodemon": "^2.0.7",
-    "tslib": "^2.1.0"
+    "tslib": "^2.2.0"
   }
 }
